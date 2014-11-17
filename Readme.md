@@ -8,6 +8,7 @@
   Install with [component(1)](http://component.io):
 
     $ component install bmcmahen/history
+    $ npm install bmcmahen-history
 
 ## API
 
