@@ -1,4 +1,10 @@
-var Emitter = require('emitter');
+var Emitter;
+
+try {
+  Emitter = require('emitter');
+} catch(err) {
+  Emitter = require('component-emitter');
+}
 
 /**
  * Expose `History`.
